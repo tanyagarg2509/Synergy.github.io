@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Synergy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+    <link rel="stylesheet" href="stylesheets/animate.css">
+    <link rel="stylesheet" href="stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="stylesheets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="stylesheets/magnific-popup.css">
+
+    <link rel="stylesheet" href="stylesheets/header.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/footer.css">
+
+    <link rel="shortcut icon" href="img/synergy.jpeg">
+</head>
+
+<body>
+
+    <style>
+        @media only screen and (max-width: 768px) {
+            .tanya {
+                max-height: 500px;
+            }
+        }
+    </style>
+    <div id="curtain">
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="navText">
+            <li><a href="index.html" class="">Home</a></li>
+            <li><a href="about.html" class="">ABOUT US</a></li>
+            <li><a href="sports.html" class="">SPORTS</a></li>
+            <li><a href="team.html" class="">CORE TEAM</a></li>
+            <li><a href="coming.html">IGNITE'21</a></li>
+            <li><a href="winner.html" class="">Past Winners</a></li>
+            <li><a href="gallery.html" class="">Gallery</a></li>
+        </ul>
+        <div class="hamburger toggle" onclick="toggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+    <script>
+        function toggle(x) {
+            var curtain = document.getElementById('curtain');
+            curtain.classList.toggle('active');
+            x.classList.toggle("change");
+            if ($('#curtain').height() == 0)
+                $('#curtain').height('100%');
+            else
+                $('#curtain').height('0%');
+        }
+    </script>
+
+    <a href="index.html"><img class="SyneryLogo" src="img/LOGO.jpg"></a>
+    <section class="home-slider js-fullheight owl-carousel ftco-degree-bottom tanya">
+        <div class="slider-item js-fullheight" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbDHaG9oJLCHUDx9DBPuN31CatcImEram86xpT_MaXr_Wfl17p');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="">
+
+                    <div class="col-sm-6 ftco-animate text-center">
+
+                        <h1 class="mb-4">SYNERGY</h1>
+                        <h2 class="subheading" style="font-weight: bold;">Sports Society</h2>
+                        <h2 class="subheading" style="font-weight: bold;">Indira Gandhi Delhi Technical University For Women</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="slider-item js-fullheight" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaP6nl_41h8bfRQVxL3FNtRNyuAupSwmduI4K19RMEDWi6SjJW');"> -->
+        <div class="slider-item js-fullheight" style="background-image: url('https://ugc-01.cafemomstatic.com/gen/constrain/560/380/80/2017/08/06/16/1g/9t/phm6ic6esg67.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="">
+
+                    <div class="col-sm-7 ftco-animate text-center">
+                        <h1 class="mb-4">SYNERGY</h1>
+                        <h2 class="subheading" style="font-weight: bold;">Sports Society</h2>
+                        <h2 class="subheading" style="font-weight: bold;">Indira Gandhi Delhi Technical University For Women</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item js-fullheight" style="background-image: url('https://www.westernsydney.edu.au/__data/assets/image/0008/887876/Dani-Davis-action-shot.JPG.jpg');">
+            <!-- <div class="slider-item js-fullheight" style="background-image: url('http://upl.stack.com/wp-content/uploads/2012/10/Basketball-High-Jump-In-5-Minutes1-e1350333538293.jpg');"> -->
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="">
+
+                    <div class="col-sm-7 ftco-animate text-center">
+                        <h1 class="mb-4">SYNERGY</h1>
+                        <h2 class="subheading" style="font-weight: bold;">Sports Society</h2>
+                        <h2 class="subheading" style="font-weight: bold;">Indira Gandhi Delhi Technical University For Women</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .myflex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .myflex iframe {
+            margin: 10px;
+            padding: 10px;
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+    <section style="background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);" class="ftco-section-services ftco-degree">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>
+                        Ongoing Events
+                    </h1>
+                </div>
+                <!-- <video width="320" height="240" controls>
+                    <source src="" type="video/mp4">
+                </video> -->
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>
+                        Recent Events
+                    </h1>
+                </div>
+                <div class="col-sm-6">
+                    <h1>
+                        Upcoming Events </h1>
+                </div>
+            </div>
+            <!-- <div class="row d-flex align-items-center">
+                <div class="col-xl-4 align-self-stretch pt-5">
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <h2 class="mb-4">IGNITE'20</h2>
+                            <h3 class="subheading">THE SPORTS MEET OF IGDTUW</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 align-self-stretch pt-5">
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <h2 class="mb-4">IGNITE'20</h2>
+                            <h3 class="subheading">THE SPORTS MEET OF IGDTUW</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 align-self-stretch pt-5">
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <h2 class="mb-4">IGNITE'20</h2>
+                            <h3 class="subheading">THE SPORTS MEET OF IGDTUW</h3>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="footerlogo">
+                        <img src="img/LOGO.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="heading">
+                        SYNERGY <br> The Sports Society of IGDTUW
+                        <br>
+                        <a href="https://www.facebook.com/igdtuwsportsclub" target="_blank"><i class="fa fa-facebook-square" style="color:#4c6ef5;z-index:10;" aria-hidden="true">&nbsp</i></a>
+                        <a href="https://www.instagram.com/synergy_igdtuw/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color:#d32789;">&nbsp</i></a>
+                        <a href="https://www.linkedin.com/company/synergy-sports-society-of-igdtuw/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="color:#15aabf;">&nbsp</i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="lastItem">
+                        Copyright © 2020 <a href="index.html">SYNERGY IGDTUW.</a> All Rights Reserved
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- loader -->
+    <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="public/js/popper.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/jquery.easing.1.3.js"></script>
+    <script src="public/js/jquery.waypoints.min.js"></script>
+    <script src="public/js/jquery.stellar.min.js"></script>
+    <script src="public/js/owl.carousel.min.js"></script>
+    <script src="public/js/jquery.magnific-popup.min.js"></script>
+    <script src="public/js/aos.js"></script>
+
+    <script src="public/js/scrollax.min.js"></script>
+
+    <script src="public/js/main.js"></script>
+    <script>
+        var pre = document.getElementById('loading')
+
+        function fun() {
+            pre.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
